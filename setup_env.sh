@@ -1,8 +1,5 @@
 #!/bin/bash
 
-echo "Atualizando o sistema..."
-sudo apt update -y && sudo apt upgrade -y
-
 echo "Instalando os apps essenciais..."
 sudo apt install -y neovim git curl openssh-client curl wget unzip
 
