@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Instalando os apps essenciais..."
-sudo apt install -y neovim git curl openssh-client curl wget unzip
+sudo apt install -y neovim git curl wget unzip
 
 echo "Configurando o git..."
 git config --global user.name "Davi"
